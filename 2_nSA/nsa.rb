@@ -17,6 +17,7 @@ def chiffre_de_cesar(message, key)
         else code << x.ord + key
         end
     else
+      code << x
     end
     end
   # end
@@ -31,4 +32,4 @@ end
 
 # puts chiffre_de_cesar("Salut ma poule", 4)
 
-# puts chiffre_de_cesar("il fait au moins 20!", 4)
+puts chiffre_de_cesar("il fait au moins 20!", 4)
