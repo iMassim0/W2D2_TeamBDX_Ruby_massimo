@@ -28,8 +28,7 @@ print new_message.join("")
 end
 
 # puts chiffre_de_cesar("ABCDEFGHIJKLMNOPQRSTUVWXYZ", 4)
-# puts chiffre_de_cesar("EFGHIJKLMNOPQRSTUVWXYZBCDE", -4)
+
 # puts chiffre_de_cesar("Salut ma poule", 4)
-# puts chiffre_de_cesar("Wepyx qe tsypi", -4)
+
 # puts chiffre_de_cesar("il fait au moins 20!", 4)
-# puts chiffre_de_cesar("mp jemx ey qsmrw 20!", -4)
