@@ -9,19 +9,21 @@ def chiffre_de_cesar(message, key)
     # -- On skip les espaces --
     if x.ord == 32
       code << x
-    # -- On traite les majuscules
+    # -- On traite les majuscules --
     elsif (65..90).include? x.ord
         if x.ord + key > 90
           code << x.ord + key - 25
         else code << x.ord + key
         end
-    # -- On traite les minuscules
+    # -- On traite les minuscules --
     elsif (97..122).include? x.ord
         if x.ord + key > 122
           code << x.ord + key - 25
         else code << x.ord + key
         end
+    # -- On balance la ponctuation telle quelle --    
     else
+      code << x
     end
 
   end
