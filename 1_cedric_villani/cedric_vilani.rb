@@ -1,14 +1,17 @@
-def part_sum(n)
-  tot = 0
-  n -= 1
-  n.times do
-    if n % 3 == 0 || n % 5 == 0
-      tot += n
+def particular_sum(number)
+  total = 0
+  number -= 1
+  number.times do
+    if number % 3 == 0 || number % 5 == 0
+      total += number
+      # puts number
     end
-    n -= 1
+    number -= 1
   end
-  return tot
+  return total
 end
 
-puts part_sum(1000)
+puts particular_sum(10)
+
+puts particular_sum(1000)
 
