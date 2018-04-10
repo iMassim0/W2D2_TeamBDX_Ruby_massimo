@@ -13,15 +13,19 @@ def chiffre_de_cesar(message, key)
     elsif (65..90).include? x.ord
         if x.ord + key > 90
           code << x.ord + key - 25
+        elsif x.ord + key < 65
+          code << x.ord + key + 25
         else code << x.ord + key
         end
     # -- On traite les minuscules --
     elsif (97..122).include? x.ord
         if x.ord + key > 122
           code << x.ord + key - 25
+        elsif x.ord + key < 97
+          code << x.ord + key + 25
         else code << x.ord + key
         end
-    # -- On balance la ponctuation telle quelle --    
+    # -- On balance la ponctuation telle quelle --
     else
       code << x
     end
