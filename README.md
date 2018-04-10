@@ -7,7 +7,7 @@ Exercices :
 + 1_cedric_villani/cedric_vilani.rb
 + 2_nSA/nsa.rb
 + 3_finances/finances.rb
-+ 4_jean_michel_data/jmd.rb
++ 4_jean_michel_data/jmd.rb  /!\ ATTENTION les méthodes à Uncomment sont groumandes en mémoire /!\
 
 
 ## Made by Baptiste ROGEON (@bab) & Maxime FLEURY (@Massimo)
